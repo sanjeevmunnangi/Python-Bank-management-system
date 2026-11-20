@@ -6,7 +6,7 @@ class BankAccount:
               self.balance=balance
               self.transactions=[]
        def verify_pin(self,entered_pin):
-              return entered_pin==self.verify_pin
+              return entered_pin==self.pin
 
        def deposit(self,amount):
               if amount>0:
